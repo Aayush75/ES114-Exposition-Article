@@ -26,5 +26,47 @@
     "title": "Simple Visualisation",
     "section": "",
     "text": "import numpy as np\nimport matplotlib.pyplot as plt\n%matplotlib inline\n%config InlineBackend.figure_format = 'retina'\n\n\nx = np.linspace(0, 10, 100)\ny = np.sin(x)\n\nplt.plot(x, y)"
+  },
+  {
+    "objectID": "article.html",
+    "href": "article.html",
+    "title": "deck.gl: A High Performance GPU-Powered Visualization Framework",
+    "section": "",
+    "text": "deck.gl is a powerful and versatile GPU-based framework for creating stunning and interactive visual representations of large datasets. It is an open-source tool built on WebGL originally developed by Uber and now maintained under the OpenJS Foundation.\ndeck.gl is built to handle large datasets efficiently by leveraging GPU capabilites to render complex visualizations. A major appilcation of deck.gl is it’s ability to efficiently visualize geo-spatial data (like maps and 3D scans). It is highly compatible with major basemap providers like Mapbox and Google Maps. It also provides interactive event-handling like picking, highlighting and filtering which allows users to interact with individual datapoints on the maps with ease."
+  },
+  {
+    "objectID": "article.html#introduction",
+    "href": "article.html#introduction",
+    "title": "deck.gl: A High Performance GPU-Powered Visualization Framework",
+    "section": "",
+    "text": "deck.gl is a powerful and versatile GPU-based framework for creating stunning and interactive visual representations of large datasets. It is an open-source tool built on WebGL originally developed by Uber and now maintained under the OpenJS Foundation.\ndeck.gl is built to handle large datasets efficiently by leveraging GPU capabilites to render complex visualizations. A major appilcation of deck.gl is it’s ability to efficiently visualize geo-spatial data (like maps and 3D scans). It is highly compatible with major basemap providers like Mapbox and Google Maps. It also provides interactive event-handling like picking, highlighting and filtering which allows users to interact with individual datapoints on the maps with ease."
+  },
+  {
+    "objectID": "article.html#installation-and-setup",
+    "href": "article.html#installation-and-setup",
+    "title": "deck.gl: A High Performance GPU-Powered Visualization Framework",
+    "section": "Installation and Setup",
+    "text": "Installation and Setup\nTo install and run deck.gl on your system, you will need npm (Node.js package manager).\nInstructions to install npm on your system can be found here.\nTo install the deck.gl framework:\nnpm install deck.gl --save\nThis should install the deck.gl module which includes all the deck.gl features and their dependencies. More detailed instructions about installation can be found on the deck.gl website"
+  },
+  {
+    "objectID": "article.html#key-features-and-explanation",
+    "href": "article.html#key-features-and-explanation",
+    "title": "deck.gl: A High Performance GPU-Powered Visualization Framework",
+    "section": "Key Features and Explanation",
+    "text": "Key Features and Explanation\n\n1. GPU Acceleration\nUnlike traditional data visualization libraries that rely heavily on CPU computation, deck.gl enables the rendering of massive datasets directly on the GPU.\n\n\n2. Layer-based Approach:\ndeck.gl visualizations use layers as building blocks. Layers accept data and map it to visual elements rendered on the GPU. Each layer represents a specific type of visualization, and these layers can then be combined together to form complex visuals.\nThe main types of layers are:\n\nCore Layers\nAggregation Layers\nGeo Layers\nMesh Layers\n\nFor an exhaustive list of layers, visit the deck.gl Layer Catalog\n\n\n3. Integration with Mapping Libraries:\ndeck.gl is highly compatible with mapping libraries like Mapbox, Google Maps, OpenStreetMap.\n\n\n4. Compatible With Multiple Data Formats:\ndeck.gl uses loaders.gl to read data and resources. loaders.gl supports various data formats such as CSV, GeoJSON, LAS, 3D Tiles (such as Point Clouds and Batch 3D models), Vector Tiles (such as Mapbox) and many more.\n\n\n5. Interactivity:\ndeck.gl has built-in support for zooming, panning, tooltips and hover events."
+  },
+  {
+    "objectID": "article.html#code-examples",
+    "href": "article.html#code-examples",
+    "title": "deck.gl: A High Performance GPU-Powered Visualization Framework",
+    "section": "Code Examples",
+    "text": "Code Examples"
+  },
+  {
+    "objectID": "article.html#use-case",
+    "href": "article.html#use-case",
+    "title": "deck.gl: A High Performance GPU-Powered Visualization Framework",
+    "section": "Use Case",
+    "text": "Use Case\n\n1. Climate Science:\nVisualizing weather patterns, temperature variations and environmental changes using animated layers and heatmaps\n\n\n2. Geospatial Analytics:"
   }
 ]
